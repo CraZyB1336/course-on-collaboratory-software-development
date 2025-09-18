@@ -67,8 +67,7 @@ jobs:
       # Replace the echo with your real test command, e.g.:
       #   uv run pytest
       - name: Run root tests
-        run: |
-          # TODO: replace with real test command
+        run: uv run pytest |
           echo "Running tests..."
 
   # Secondary job: auto-merge Dependabot PRs after CI passes
