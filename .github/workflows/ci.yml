@@ -68,7 +68,7 @@ jobs:
       #   uv run pytest
       - name: Run root tests
         run: uv run pytest |
-          echo "Running tests..."
+          echo "Running tests... Yippi"
 
   # Secondary job: auto-merge Dependabot PRs after CI passes
   dependabot:
